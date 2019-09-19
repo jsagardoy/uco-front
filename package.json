@@ -14,7 +14,7 @@
     "start:prod": "webpack-dev-server  --mode production --config webpack.prod.config.js --inline --hot --open",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:fix": "prettier --write src/**/*.{ts,tsx,js,jsx} && tslint --project . --fix",
-    "deploy": "git subtree push --prefix dist https://git.heroku.com/uco-front.git Developer",
+    "deploy": "git subtree push --prefix dist https://git.heroku.com/uco-front.git Developer"
   },
   "keywords": [],
   "author": "Jehu",
