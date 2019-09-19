@@ -8,10 +8,10 @@
     "npm": "6.9.0"
   },
   "scripts": {
-    "start": "webpack-dev-server  --mode production --config webpack.prod.config.js --inline --hot --open",
+    "start": "webpack-dev-server  --mode production --config webpack.prod.config.js --inline --hot",
     "start:dev": "webpack-dev-server  --mode development --inline --hot --open",
     "build": "webpack  --mode production",
-    "start:prod": "webpack-dev-server  --mode production --config webpack.prod.config.js --inline --hot --open",
+    "start:prod": "webpack-dev-server  --mode production --config webpack.prod.config.js --inline --hot",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:fix": "prettier --write src/**/*.{ts,tsx,js,jsx} && tslint --project . --fix",
     "deploy": "git subtree push --prefix dist https://git.heroku.com/uco-front.git Developer"
