@@ -1,0 +1,12 @@
+{
+  "root": "dist/",
+  "clean_urls": true,
+  "routes": {
+      "/*.js": "/",
+      "/*.ts": "/",
+      "/*.css": "/",
+      "/*.map": "/",
+      "/*.ico": "/",
+      "/**": "index.html"
+  }
+}
