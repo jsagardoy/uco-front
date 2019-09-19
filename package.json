@@ -8,7 +8,7 @@
     "npm": "6.9.0"
   },
   "scripts": {
-    "start": "node app.js",
+    "start": "node server.js",
     "start:dev": "webpack-dev-server  --mode development --inline --hot --open",
     "build": "webpack  --mode production",
     "start:prod": "webpack-dev-server  --mode production --config webpack.prod.config.js --inline --hot",
