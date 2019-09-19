@@ -8,7 +8,8 @@
     "npm": "6.9.0"
   },
   "scripts": {
-    "start": "webpack-dev-server  --mode development --inline --hot --open",
+    "start": "webpack-dev-server  --mode production --config prod.webpack.config.js --inline --hot --open",
+    "start:dev": "webpack-dev-server  --mode development --inline --hot --open",
     "build": "webpack  --mode production",
     "start:prod": "webpack-dev-server  --mode production --config webpack.prod.config.js --inline --hot --open",
     "test": "echo \"Error: no test specified\" && exit 1",
