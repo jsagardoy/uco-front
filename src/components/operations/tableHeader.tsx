@@ -9,6 +9,7 @@ interface Props extends WithStyles <typeof styles> {}
 const styles = (theme: Theme) =>
 createStyles({
   root: {
+    fontFamily: theme.typography.fontFamily,
     backgroundColor: colors.GREEN,
     color: colors.YELLOW,
   },

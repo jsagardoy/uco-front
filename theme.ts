@@ -3,6 +3,11 @@ import { createMuiTheme, Theme } from '@material-ui/core/styles';
 export const customTheme = createMuiTheme({
   typography: {
     useNextVariants: true,
+    fontFamily: '"Roboto"',
+    fontSize: 14,
+    fontWeightLight: 300,
+    fontWeightRegular: 400,
+    fontWeightMedium: 500,
   },
   palette: {
     primary: {

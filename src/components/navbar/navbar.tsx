@@ -2,8 +2,6 @@ import * as React from 'react';
 import AuthService from '../Auth/withAuth.business';
 import { withRouter } from 'react-router';
 import { toast } from 'react-toastify';
-import MenuIcon from '@material-ui/icons/Menu';
-import { Button } from '@material-ui/core';
 import { css } from 'emotion';
 import { colors } from '../../common';
 const logo = require('../../common/images/escudo_guardia_civil.gif');
@@ -36,6 +34,7 @@ const imgStyle = css`
   align-content: center;
 `;
 const navStyle = css`
+  font-family: Roboto;
   background-color: ${colors.GREEN};
   color: ${colors.YELLOW};
   display: flex;
@@ -43,6 +42,7 @@ const navStyle = css`
   flex-grow:1;
   width: 100%;
 `;
+
 const aImageStyle = css`
   display: flex;
   padding-left: 0.5rem;
@@ -81,7 +81,6 @@ class NavBarComponent extends React.Component<any, State> {
   public auth: AuthService = new AuthService('');
   public render() {
     return (
-      <>
         <nav className={navStyle}>
           <div className={wrapper}>
             <div className={alignLeft}>
@@ -109,7 +108,6 @@ class NavBarComponent extends React.Component<any, State> {
             </div>
           </div>
         </nav>
-      </>
     );
   }
 }
