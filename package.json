@@ -33,7 +33,7 @@
     "@types/react-slick": "^0.23.3",
     "@types/typescript": "^2.0.0",
     "acorn-dynamic-import": "^4.0.0",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "babel-loader": "^8.0.5",
     "babel-polyfill": "^6.26.0",
     "base-64": "^0.1.0",
